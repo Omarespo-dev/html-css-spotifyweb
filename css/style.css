@@ -1,0 +1,105 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+/* BLOCCO SOPRA */
+
+.container-partesopra{
+    background-color: rgba(8,11,18,255);
+    height: 120px;
+    align-content: center;
+}
+
+.blocco-sopra{
+    /* height: calc(100vh - 120px); */
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.button{
+    border-radius: 9999px;
+    background-color: #202121;
+    color: white;
+    padding: 10px 35px;
+    border-style: groove;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+/* BLOCCO MAIN */
+.blocco-main{
+    height: calc(100vh - 150px);
+    background-color: violet;
+    display: flex;
+}
+
+.blocco-main main{
+    height: 100%;
+    background-color: red;
+    width: calc(100% - 300px);
+    overflow: auto;
+}
+
+
+
+/* BLOCCO SINISTRA */
+.blocco-sinistra{
+    height: 100%;
+    width: 300px;
+    background-color: black;
+    border: 2px white dotted;
+    overflow: auto;
+}
+
+.content-nav{
+    /* height: 20%; */
+    /* background-color: wheat;
+    /* display: flex;
+    flex-wrap: wrap;
+    border: 2px white dotted; */ 
+    
+}
+
+.img-logo{
+    padding: 20px;
+    width: 70%;
+}
+
+
+.ul-nav{
+    color: white;
+    list-style-type: none;
+}
+
+.li-flex{
+    padding: 10px 25px;
+
+
+}
+
+
+.text-nav{
+    color: white;
+
+}
+
+
+
+
+
+
+/* BLOCCO FOOTER */
+.blocco-footer{
+    height: 150px;
+    background-color: aqua;
+    
+}
