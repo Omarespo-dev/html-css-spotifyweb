@@ -37,18 +37,89 @@
 
 /* BLOCCO MAIN */
 .blocco-main{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 120px);
     background-color: violet;
     display: flex;
 }
 
 .blocco-main main{
     height: 100%;
-    background-color: red;
+    background-color: rgba(20,25,34,255);
     width: calc(100% - 300px);
     overflow: auto;
 }
 
+
+.parte-centrale{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 20px;
+}
+
+.parte-centrale a{
+    text-decoration: none;
+    color: #7e8085;
+}
+
+main h2{
+    color: white;
+}
+
+.container-main{
+    height: 100%;
+    /* background-color: aqua; */
+    /* border: black 2px dotted; */
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: auto;
+    margin-top: 20px;
+    
+    
+}
+
+.cover{
+    display: flex;
+    gap: 1%;
+}
+.blocchi{
+    height: 330px;
+    /* flex-basis: 100%; */
+    /* border: black 2px dotted; */
+    width: calc(100% / 6);
+    margin-top: 10px;
+
+} 
+
+.blocchi h3{
+    text-align: center;
+    color: white;
+}
+
+.blocchi p{
+    text-align: center;
+    color: #7e8085;
+}
+
+
+.img-size{
+    max-width: 100%;
+}
+
+.img-radius{
+    border-radius: 9999px;
+}
+
+.title{
+    height: 50px;
+    margin-top: 40px;
+}
+
+.title p{
+    color: #7e8085;
+    margin-top: 10px;
+    
+}
 
 
 /* BLOCCO SINISTRA */
@@ -98,8 +169,51 @@
 
 
 /* BLOCCO FOOTER */
-.blocco-footer{
-    height: 150px;
-    background-color: aqua;
+footer{
+    height: 120px;
+    background-color:rgba(40,40,40,255);
     
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    height: 120px;
+    background-color: aqua;
+    border: 2px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col ul{
+    list-style: none;
+    align-content: center;
+}
+
+
+.col ul li h4{
+    color: white;
+}
+.col ul li span{
+    color: #7e8085;
+}
+
+.col a{
+    align-content: center;
+}
+
+
+
+.img-sinister{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.col-player{
+    width: 50%;
 }
