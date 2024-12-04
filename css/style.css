@@ -6,6 +6,9 @@
     font-family: Montserrat, "Helvetica Neue", sans-serif;
 }
 
+body{
+    font-family:'Montserrat', sans-serif; ;
+}
 /* BLOCCO SOPRA */
 
 .container-partesopra{
@@ -127,7 +130,7 @@ main h2{
     height: 100%;
     width: 300px;
     background-color: black;
-    border: 2px white dotted;
+    /* border: 2px white dotted; */
     overflow: auto;
 }
 
@@ -147,26 +150,118 @@ main h2{
 
 
 .ul-nav{
-    color: white;
+    color: #7e8085;
     list-style-type: none;
+    
 }
 
 .li-flex{
+    
     padding: 10px 25px;
+    display: flex;
 
 
+}
+
+.li-flex span{
+    align-content: center;
+    color: #7e8085;
+    
 }
 
 
 .text-nav{
     color: white;
+    display: flex;
+    text-decoration: none;
 
+}
+
+.button-plus{
+    padding: 10px 13px;
+    border-radius: none;
+    background-color: #7e8085;
+    border-style: none;
+}
+
+.span-flex{
+    display: flex;
+    align-items: center;
+}
+
+.li-flex h2{
+    color: white;
+}
+
+.li-flex p{
+    font-size: 20px;
 }
 
 
 
+.blocco-left-down{
+    background-color: black;
+    height: 400px;
+}
 
 
+.blocco-left-down-1{
+    /* background-color: red; */
+    height: 40px;
+    padding: 10px 25px;
+    
+    
+}
+
+.blocco-left-down-1 a{
+    text-decoration: none;
+    color: #7e8085;
+   
+}
+.blocco-left-down-1 span{
+    margin-left: 10px;
+   
+}
+
+
+.button-install{
+    border-radius: 9999px;
+    padding: 1px 3px;
+    background-color: black;
+    border-color: #7e8085;
+    border-style: groove;
+    
+}
+
+
+.blocco-left-down-2{
+    /* background-color: violet; */
+    height: 50px;
+    border-top: #7e8085 2px solid;
+    width: 80%;
+    margin-left: 25px;
+    display: flex;
+    
+    
+}
+
+
+.blocco-left-down-2 h4{
+    align-content: center;
+    margin-left: 10px;
+    color: white;
+    margin-top: 15px;
+    
+}
+
+.user-border{
+    border: 2px solid;
+    border-radius: 9999px;
+    padding: 0px 3px;
+    border-color: #7e8085;
+    background-color: #7e8085;
+    margin-top: 15px;
+}
 
 /* BLOCCO FOOTER */
 footer{
@@ -178,12 +273,14 @@ footer{
 .row{
     display: flex;
     justify-content: space-between;
+    background-color: #202121;
 }
 
+/* BLOCCO SINISTER E ICON */
 .col{
     height: 120px;
-    background-color: aqua;
-    border: 2px solid black;
+    background-color: #202121;
+    /* border: 2px solid black; */
     width: 300px;
     display: flex;
     justify-content: space-between;
@@ -214,6 +311,20 @@ footer{
     margin-top: 30px;
 }
 
+
+/* BLOCCO PLAYER */
 .col-player{
     width: 50%;
+}
+
+
+
+/* BLOCCO ICON-RIGHT */
+.icon-right{
+    display: flex;
+    gap: 30%;
+}
+
+.riga{
+    border: 2px solid red;
 }
