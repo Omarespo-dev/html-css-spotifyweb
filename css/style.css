@@ -90,7 +90,7 @@ main h2{
     gap: 1%;
 }
 .blocchi{
-    height: 330px;
+    /* height: 330px; */
     /* flex-basis: 100%; */
     /* border: black 2px dotted; */
     width: calc(100% / 6);
@@ -337,38 +337,11 @@ footer{
 
 
 
-/* *********************MEDIA QUERYYYY **********************/
-/* @media screen and (min-width:878px) {
-    .parte-centrale{
-        flex-wrap: wrap;
-        gap: 5%;
-    }
-
-    #margin-scopri{
-        margin-top: 40px;
-    }
-} */
-
-
 
 
 
 /* *********************MEDIA QUERYYYY **********************/
-/* @media screen and (min-width:1440px) {
-    .parte-centrale{
-        
-        gap: 5%;
-    }
-
-    #margin-scopri{
-        margin-top: 0px;
-    }
-} */
-
-
-
-/* *********************MEDIA QUERYYYY **********************/
-@media screen and (max-width:552px) {
+@media screen and (max-width:552px) and (min-width: 0px) {
    
     .blocco-sinistra{
         width: 80px;
@@ -440,7 +413,9 @@ footer{
     
     
     
-    
+    .margin-scopri-1{
+        margin-top: 0px;
+    }
     
     
     
@@ -453,6 +428,13 @@ footer{
         margin-top: 30px;
     }
 
+    .margin-scopri-3{
+        margin-top: 30px;
+    }
+
+    .margin-scopri-1{
+        margin-top: 30px;
+    }
 
     .cover{
         flex-wrap: wrap;
@@ -468,18 +450,114 @@ footer{
         margin-left: 20px;
         margin-right: 20px;
     }
+    
+    .blocchi p{
+        font-size: 12px;
+    }
+
+    .blocchi h3{
+        font-size: 12px;
+    }
 }
 
 
 
 /* *********************MEDIA QUERYYYY **********************/
-@media screen and (max-width:639px) {
+
+@media screen and (max-width:639px) and (min-width: 553px) {
     .parte-centrale{
-        
+        flex-wrap: wrap;
         gap: 5%;
     }
 
-    #margin-scopri{
-        margin-top: 0px;
+    .margin-scopri-3{
+        margin-top: 30px;
     }
+
+
+    #img-552{
+        display: none;
+    } 
+
+    .cover{
+        flex-wrap: wrap;
+        /* width: none; */
+        gap: 5%;
+    }
+
+    .blocchi{
+        flex-basis: 45%;
+    }
+
+    .container-main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
+    .margin-scopri-1{
+        margin-top: 30px;
+    }
+    .margin-scopri{
+        margin-top: 30px;
+    }
+
+    .blocchi p{
+        font-size: 12px;
+    }
+
+    .blocchi h3{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:878px) and (min-width: 640px) {
+
+    #img-552{
+        display: none;
+    } 
+
+    .parte-centrale{
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+
+    .margin-scopri-3{
+        margin-top: 30px;
+    }
+
+    .cover{
+        flex-wrap: wrap;
+        /* width: none; */
+        gap: 5%;
+    }
+
+    .blocchi{
+        flex-basis: 20%;
+    }
+
+    .container-main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .blocchi p{
+        font-size: 12px;
+    }
+
+    .blocchi h3{
+        font-size: 12px;
+    }
+
+    
+    
+}
+
+
+/* *********************MEDIA QUERYYYY **********************/
+@media screen and (max-width:1920px) and (min-width: 879px) {
+    #img-552{
+        display: none;
+    } 
 }
