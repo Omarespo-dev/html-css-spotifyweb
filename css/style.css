@@ -162,17 +162,31 @@ main h2{
 
 }
 
-.li-flex span{
-    align-content: center;
+.nome-set{
+    text-decoration: none;
     color: #7e8085;
-    
+}
+
+.nome-set:hover{
+    color: white;
+}
+
+.text-nav{
+    color: #7e8085;
+    display: flex;
+    text-decoration: none;
+
 }
 
 
-.text-nav{
+
+.text-nav:hover{
     color: white;
-    display: flex;
-    text-decoration: none;
+}
+
+.text-nav span{
+    align-content: center;
+    
 
 }
 
@@ -182,6 +196,9 @@ main h2{
     background-color: #7e8085;
     border-style: none;
 }
+
+
+
 
 .a-flex{
     display: flex;
