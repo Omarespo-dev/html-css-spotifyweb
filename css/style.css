@@ -69,6 +69,12 @@ body{
     font-size: 12px;
 }
 
+.parte-centrale a:hover{
+    color: white;
+}
+
+
+
 main h2{
     color: white;
 }
@@ -112,7 +118,12 @@ main h2{
 
 .img-size{
     max-width: 100%;
+    position: relative;
 }
+
+
+
+
 
 .img-radius{
     border-radius: 9999px;
@@ -336,11 +347,57 @@ footer{
 
 /* BLOCCO PLAYER */
 .col-player{
-    width: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    /* display: flex; */
+    /* align-items: center; */
+    font-size: 30px;
+    width: 45%;
+    color: white;
+}
+
+.barra{
+    /* background-color: white;
+    height: 4px;
+    border-radius: 40px;
+    margin-top: 10px; */
+}
+
+.span-set1{
+
+    display: flex;
+    font-size: 10px;
+    justify-content: flex-end;
+}
+
+.span-set2{
+
+    display: flex;
+    font-size: 10px;
+    justify-content: flex-start;
 }
 
 
+.player-color{
+    background-color: grey;
+    height: 4px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+}
 
+.player-1{
+    background-color: white;
+  height: 4px;
+  border-radius: 20px;
+  width: 20%;
+}
 /* BLOCCO ICON-RIGHT */
 .icon-right{
     display: flex;
@@ -351,7 +408,24 @@ footer{
     border: 2px solid red;
 }
 
+.player-bar1{
+    background-color: grey;
+  height: 4px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-top: 90%;
+  flex-shrink: 0;
+  
+}
 
+.player-bar2{
+    background-color: white;
+  height: 4px;
+  border-radius: 20px;
+  width: 30%;
+}
 
 
 
@@ -481,7 +555,7 @@ footer{
 
 /* *********************MEDIA QUERYYYY **********************/
 
-@media screen and (max-width:639px) and (min-width: 553px) {
+@media screen and (max-width:768px) and (min-width: 553px) {
     .parte-centrale{
         flex-wrap: wrap;
         gap: 5%;
@@ -529,7 +603,7 @@ footer{
 }
 
 
-@media screen and (max-width:878px) and (min-width: 640px) {
+@media screen and (max-width:1000px) and (min-width: 768px) {
 
     #img-552{
         display: none;
